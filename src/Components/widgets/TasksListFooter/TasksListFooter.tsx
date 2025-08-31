@@ -9,7 +9,7 @@ interface ITasksListFooter {
 	clearCompleted: () => void
 }
 
-const tabsValues: string[] = ['all', 'active', 'completed']
+const tabsValues: FilterType[] = ['all', 'active', 'completed']
 
 const TasksListFooter = ({
 	activeTab,
