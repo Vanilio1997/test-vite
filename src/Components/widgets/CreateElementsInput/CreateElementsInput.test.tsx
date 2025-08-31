@@ -12,7 +12,7 @@ vi.mock('@/icons/down.svg?react', () => ({
 }))
 
 vi.mock('@/icons/up.svg?react', () => ({
-	default: (props:) => (
+	default: (props: any) => (
 		<svg data-testid='up-icon' {...props}>
 			▲
 		</svg>
