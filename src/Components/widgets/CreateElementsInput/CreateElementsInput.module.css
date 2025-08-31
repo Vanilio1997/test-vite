@@ -1,0 +1,63 @@
+.inputСontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease;
+}
+
+.inputIconContainer {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.inputСontainer.focused {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+    outline: none;
+}
+
+.inputСontent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px;
+    flex-grow: 1;
+    min-height: 32px;
+}
+
+.embeddedNode {
+    display: inline-flex;
+    align-items: center;
+    background: #e0e0e0;
+    border-radius: 16px;
+    padding: 2px 8px;
+    height: 24px;
+}
+
+.elementsInput {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    min-width: 120px;
+    padding: 4px 0;
+    background: transparent;
+}
+
+.elementsInput::placeholder {
+    color: #999;
+    font-family: 'Raleway';
+    font-style: italic;
+}
+
+.addButton {
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}

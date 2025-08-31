@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TasksListFooter Component matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      3
+       items left
+    </div>
+    <div
+      role="tablist"
+    >
+      <div>
+        <button
+          aria-controls="tabpanel-0"
+          aria-selected="true"
+          class="undefined undefined"
+          id="tab-0"
+          role="tab"
+          tabindex="0"
+        >
+          all
+        </button>
+        <button
+          aria-controls="tabpanel-1"
+          aria-selected="false"
+          class="undefined "
+          id="tab-1"
+          role="tab"
+          tabindex="-1"
+        >
+          active
+        </button>
+        <button
+          aria-controls="tabpanel-2"
+          aria-selected="false"
+          class="undefined "
+          id="tab-2"
+          role="tab"
+          tabindex="-1"
+        >
+          completed
+        </button>
+      </div>
+    </div>
+    <button>
+      Clear completed
+    </button>
+  </div>
+</div>
+`;

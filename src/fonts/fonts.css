@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Raleway';
+    src:
+        url('./Raleway-v4020-ThinItalic.woff') format('woff'),
+        url('./Raleway-v4020-ThinItalic.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./Raleway-v4020-Thin.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}

@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+}
+
+.tabsHeader {
+    display: flex;
+    gap: 24px;
+}
+
+.tabButton {
+    position: relative;
+    padding: 8px 0;
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.tabButton:hover {
+    color: #333;
+}
+
+.tabButton.active {
+    border: 1px solid var(--pale-rose);
+    padding: 2px 3px;
+}
