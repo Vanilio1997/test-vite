@@ -52,7 +52,7 @@ const CreateElementsInput = ({
 	return (
 		<div
 			ref={containerRef}
-			className={`${styles.inputСontainer} ${
+			className={`${styles.inputWrapper} ${
 				isFocused ? `${styles.focused}` : ''
 			}`}
 			tabIndex={-1}

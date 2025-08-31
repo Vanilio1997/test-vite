@@ -21,6 +21,8 @@ const ToggleSVGIcon = ({
             color={isHidedElements ? hideIcon.color : showicon.color}
             iconStyles={isHidedElements ? hideIcon.style : showicon.style}
             ariaLabel="toggle"
+            
+            
         />
     );
 };

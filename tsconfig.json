@@ -15,12 +15,14 @@
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true,
-
+		"types": ["jest", "@testing-library/jest-dom"],
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
 		// Добавьте эти строки:
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./src/*"]
 		}
 	},
-	"include": ["src"]
+	"include": ["src", "**/*.test.ts", "**/*.test.tsx"]
 }

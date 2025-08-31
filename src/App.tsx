@@ -30,8 +30,6 @@ export const App = () => {
 		setTasks([...tasks, { text: value, isCompleted: false, id: newTaskId }])
 	}
 
-	console.log(tasks)
-
 	const handleStatusTaskChange = useCallback(
 		(index: number): void => {
 			const newItems = [...tasks]
