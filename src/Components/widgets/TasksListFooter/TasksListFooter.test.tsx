@@ -5,7 +5,6 @@ import { describe, test, expect, vi, beforeEach } from 'vitest'
 import TasksListFooter from './TasksListFooter'
 import { FilterType } from '@/types'
 
-// Простой мок для Tabs
 vi.mock('@/Components/ui/Tabs/Tabs', () => ({
 	default: ({
 		changeActiveTab,

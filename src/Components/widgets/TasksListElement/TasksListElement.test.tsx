@@ -3,7 +3,6 @@ import userEvent from '@testing-library/user-event'
 import { describe, test, expect, vi, beforeEach } from 'vitest'
 import TasksListElement from './TasksListElement'
 
-// Простые моки
 vi.mock('@/icons/delete.svg?react', () => ({
 	default: () => <span data-testid='delete-icon'>🗑️</span>,
 }))
@@ -99,7 +98,6 @@ describe('TasksListElement', () => {
 		const user = userEvent.setup()
 		render(<TasksListElement {...defaultProps} />)
 
-		// Входим в режим редактирования
 		const editButton = screen.getByRole('button', { name: 'edit' })
 		await user.click(editButton)
 
